@@ -13,10 +13,23 @@
     </header>
 
     <nav id="menu">
-      <a href="#about">Обо мне</a>
-      <a href="#skills">Навыки</a>
-      <a href="#projects">Проекты</a>
-      <a href="#contacts">Контакты</a>
+      <button
+        class="burger"
+        id="burger"
+        aria-label="Открыть меню"
+        aria-expanded="false"
+        aria-controls="menu-list"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="menu-list" id="menu-list">
+        <a href="#about">Обо мне</a>
+        <a href="#skills">Навыки</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contacts">Контакты</a>
+      </ul>
     </nav>
 
     <main>
@@ -100,5 +113,6 @@
       </p>
       <p>Сделано с интересом на чистом HTML и CSS</p>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
